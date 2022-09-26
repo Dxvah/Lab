@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 3964327}
   - component: {fileID: 3964326}
   - component: {fileID: 3964325}
+  - component: {fileID: 3964329}
   m_Layer: 0
   m_Name: Obstaculo Rotatorio 2
   m_TagString: Untagged
@@ -174,7 +175,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7cdcbaeaa145e3a4ebf99713ca7fd276, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -218,6 +219,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &3964329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3964324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe773c721b0dbfe49b6c15656d1d9a5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialParedPorDefecto: {fileID: 2100000, guid: 8005b22a157d31a49b3fae929f6d1c0f, type: 2}
+  materialParedColision: {fileID: 2100000, guid: 30f417d6c4f0af84c88accaf3e1e3aec, type: 2}
 --- !u!1 &37471271
 GameObject:
   m_ObjectHideFlags: 0
@@ -325,6 +340,7 @@ GameObject:
   - component: {fileID: 262940646}
   - component: {fileID: 262940645}
   - component: {fileID: 262940644}
+  - component: {fileID: 262940648}
   m_Layer: 0
   m_Name: Muro derecha
   m_TagString: Untagged
@@ -364,7 +380,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7cdcbaeaa145e3a4ebf99713ca7fd276, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -408,6 +424,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &262940648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262940643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe773c721b0dbfe49b6c15656d1d9a5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialParedPorDefecto: {fileID: 2100000, guid: 8005b22a157d31a49b3fae929f6d1c0f, type: 2}
+  materialParedColision: {fileID: 2100000, guid: 30f417d6c4f0af84c88accaf3e1e3aec, type: 2}
 --- !u!1 &406945349
 GameObject:
   m_ObjectHideFlags: 0
@@ -420,6 +450,7 @@ GameObject:
   - component: {fileID: 406945352}
   - component: {fileID: 406945351}
   - component: {fileID: 406945350}
+  - component: {fileID: 406945354}
   m_Layer: 0
   m_Name: 'Muro arriba '
   m_TagString: Untagged
@@ -459,7 +490,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7cdcbaeaa145e3a4ebf99713ca7fd276, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -504,6 +535,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &406945354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406945349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe773c721b0dbfe49b6c15656d1d9a5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialParedPorDefecto: {fileID: 2100000, guid: 8005b22a157d31a49b3fae929f6d1c0f, type: 2}
+  materialParedColision: {fileID: 2100000, guid: 30f417d6c4f0af84c88accaf3e1e3aec, type: 2}
 --- !u!1 &426745911
 GameObject:
   m_ObjectHideFlags: 0
@@ -516,6 +561,7 @@ GameObject:
   - component: {fileID: 426745914}
   - component: {fileID: 426745913}
   - component: {fileID: 426745912}
+  - component: {fileID: 426745916}
   m_Layer: 0
   m_Name: Muro izquierda
   m_TagString: Untagged
@@ -555,7 +601,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7cdcbaeaa145e3a4ebf99713ca7fd276, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -599,6 +645,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &426745916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426745911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe773c721b0dbfe49b6c15656d1d9a5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialParedPorDefecto: {fileID: 2100000, guid: 8005b22a157d31a49b3fae929f6d1c0f, type: 2}
+  materialParedColision: {fileID: 2100000, guid: 30f417d6c4f0af84c88accaf3e1e3aec, type: 2}
 --- !u!1 &441177604
 GameObject:
   m_ObjectHideFlags: 0
@@ -611,6 +671,7 @@ GameObject:
   - component: {fileID: 441177607}
   - component: {fileID: 441177606}
   - component: {fileID: 441177605}
+  - component: {fileID: 441177609}
   m_Layer: 0
   m_Name: Obstaculo 3
   m_TagString: Untagged
@@ -650,7 +711,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7cdcbaeaa145e3a4ebf99713ca7fd276, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -694,6 +755,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 35, z: 0}
+--- !u!114 &441177609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441177604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe773c721b0dbfe49b6c15656d1d9a5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialParedPorDefecto: {fileID: 2100000, guid: 8005b22a157d31a49b3fae929f6d1c0f, type: 2}
+  materialParedColision: {fileID: 2100000, guid: 30f417d6c4f0af84c88accaf3e1e3aec, type: 2}
 --- !u!1 &696956255
 GameObject:
   m_ObjectHideFlags: 0
@@ -706,6 +781,7 @@ GameObject:
   - component: {fileID: 696956258}
   - component: {fileID: 696956257}
   - component: {fileID: 696956256}
+  - component: {fileID: 696956260}
   m_Layer: 0
   m_Name: 'Obstaculo 3 '
   m_TagString: Untagged
@@ -745,7 +821,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7cdcbaeaa145e3a4ebf99713ca7fd276, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -789,6 +865,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &696956260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696956255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe773c721b0dbfe49b6c15656d1d9a5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialParedPorDefecto: {fileID: 2100000, guid: 8005b22a157d31a49b3fae929f6d1c0f, type: 2}
+  materialParedColision: {fileID: 2100000, guid: 30f417d6c4f0af84c88accaf3e1e3aec, type: 2}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -876,7 +966,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 3.32, y: 6.23, z: -1.22}
+  m_LocalPosition: {x: 3.5, y: 6.81, z: -1.69}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -894,6 +984,7 @@ GameObject:
   - component: {fileID: 939539123}
   - component: {fileID: 939539122}
   - component: {fileID: 939539121}
+  - component: {fileID: 939539125}
   m_Layer: 0
   m_Name: Obstaculo 4
   m_TagString: Untagged
@@ -933,7 +1024,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7cdcbaeaa145e3a4ebf99713ca7fd276, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -977,6 +1068,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 120, z: 0}
+--- !u!114 &939539125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939539120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe773c721b0dbfe49b6c15656d1d9a5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialParedPorDefecto: {fileID: 2100000, guid: 8005b22a157d31a49b3fae929f6d1c0f, type: 2}
+  materialParedColision: {fileID: 2100000, guid: 30f417d6c4f0af84c88accaf3e1e3aec, type: 2}
 --- !u!1 &952242806
 GameObject:
   m_ObjectHideFlags: 0
@@ -1084,7 +1189,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0.92387956, z: -0.38268343, w: 0}
-  m_LocalPosition: {x: 0.36, y: 9.37, z: 8.71}
+  m_LocalPosition: {x: 0.36, y: 9.16, z: 8.5}
   m_LocalScale: {x: 1, y: 1.2535, z: 1.2887}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1102,6 +1207,7 @@ GameObject:
   - component: {fileID: 979196362}
   - component: {fileID: 979196361}
   - component: {fileID: 979196360}
+  - component: {fileID: 979196364}
   m_Layer: 0
   m_Name: Obstaculo 3
   m_TagString: Untagged
@@ -1141,7 +1247,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7cdcbaeaa145e3a4ebf99713ca7fd276, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1185,6 +1291,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &979196364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979196359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe773c721b0dbfe49b6c15656d1d9a5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialParedPorDefecto: {fileID: 2100000, guid: 8005b22a157d31a49b3fae929f6d1c0f, type: 2}
+  materialParedColision: {fileID: 2100000, guid: 30f417d6c4f0af84c88accaf3e1e3aec, type: 2}
 --- !u!1 &1016701874
 GameObject:
   m_ObjectHideFlags: 0
@@ -1197,6 +1317,7 @@ GameObject:
   - component: {fileID: 1016701877}
   - component: {fileID: 1016701876}
   - component: {fileID: 1016701875}
+  - component: {fileID: 1016701879}
   m_Layer: 0
   m_Name: Obstaculo 7
   m_TagString: Untagged
@@ -1236,7 +1357,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7cdcbaeaa145e3a4ebf99713ca7fd276, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1280,6 +1401,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1016701879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016701874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe773c721b0dbfe49b6c15656d1d9a5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialParedPorDefecto: {fileID: 2100000, guid: 8005b22a157d31a49b3fae929f6d1c0f, type: 2}
+  materialParedColision: {fileID: 2100000, guid: 30f417d6c4f0af84c88accaf3e1e3aec, type: 2}
 --- !u!1 &1236178927
 GameObject:
   m_ObjectHideFlags: 0
@@ -1293,8 +1428,9 @@ GameObject:
   - component: {fileID: 1236178929}
   - component: {fileID: 1236178928}
   - component: {fileID: 1236178932}
+  - component: {fileID: 1236178933}
   m_Layer: 0
-  m_Name: Jugador
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1391,6 +1527,22 @@ MonoBehaviour:
   movimientoEjeX: -0.009
   movimientoEjeY: 0
   movimientoEjeZ: 0.009
+--- !u!54 &1236178933
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236178927}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1 &1257060096
 GameObject:
   m_ObjectHideFlags: 0
@@ -1403,6 +1555,7 @@ GameObject:
   - component: {fileID: 1257060099}
   - component: {fileID: 1257060098}
   - component: {fileID: 1257060097}
+  - component: {fileID: 1257060101}
   m_Layer: 0
   m_Name: Obstaculo 5
   m_TagString: Untagged
@@ -1442,7 +1595,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7cdcbaeaa145e3a4ebf99713ca7fd276, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1486,6 +1639,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 125, z: 0}
+--- !u!114 &1257060101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257060096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe773c721b0dbfe49b6c15656d1d9a5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialParedPorDefecto: {fileID: 2100000, guid: 8005b22a157d31a49b3fae929f6d1c0f, type: 2}
+  materialParedColision: {fileID: 2100000, guid: 30f417d6c4f0af84c88accaf3e1e3aec, type: 2}
 --- !u!1 &1259307738
 GameObject:
   m_ObjectHideFlags: 0
@@ -1498,6 +1665,7 @@ GameObject:
   - component: {fileID: 1259307741}
   - component: {fileID: 1259307740}
   - component: {fileID: 1259307739}
+  - component: {fileID: 1259307743}
   m_Layer: 0
   m_Name: Obstaculo 6
   m_TagString: Untagged
@@ -1537,7 +1705,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7cdcbaeaa145e3a4ebf99713ca7fd276, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1581,6 +1749,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1259307743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259307738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe773c721b0dbfe49b6c15656d1d9a5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialParedPorDefecto: {fileID: 2100000, guid: 8005b22a157d31a49b3fae929f6d1c0f, type: 2}
+  materialParedColision: {fileID: 2100000, guid: 30f417d6c4f0af84c88accaf3e1e3aec, type: 2}
 --- !u!1 &1466119581
 GameObject:
   m_ObjectHideFlags: 0
@@ -1593,6 +1775,7 @@ GameObject:
   - component: {fileID: 1466119584}
   - component: {fileID: 1466119583}
   - component: {fileID: 1466119582}
+  - component: {fileID: 1466119586}
   m_Layer: 0
   m_Name: Muro abajo
   m_TagString: Untagged
@@ -1632,7 +1815,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7cdcbaeaa145e3a4ebf99713ca7fd276, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1676,6 +1859,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1466119586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466119581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe773c721b0dbfe49b6c15656d1d9a5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialParedPorDefecto: {fileID: 2100000, guid: 8005b22a157d31a49b3fae929f6d1c0f, type: 2}
+  materialParedColision: {fileID: 2100000, guid: 30f417d6c4f0af84c88accaf3e1e3aec, type: 2}
 --- !u!1 &1470548955
 GameObject:
   m_ObjectHideFlags: 0
@@ -1688,6 +1885,7 @@ GameObject:
   - component: {fileID: 1470548958}
   - component: {fileID: 1470548957}
   - component: {fileID: 1470548956}
+  - component: {fileID: 1470548960}
   m_Layer: 0
   m_Name: Obstaculo 7
   m_TagString: Untagged
@@ -1727,7 +1925,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7cdcbaeaa145e3a4ebf99713ca7fd276, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1771,6 +1969,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1470548960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470548955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe773c721b0dbfe49b6c15656d1d9a5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialParedPorDefecto: {fileID: 2100000, guid: 8005b22a157d31a49b3fae929f6d1c0f, type: 2}
+  materialParedColision: {fileID: 2100000, guid: 30f417d6c4f0af84c88accaf3e1e3aec, type: 2}
 --- !u!1 &1571748436
 GameObject:
   m_ObjectHideFlags: 0
@@ -1879,6 +2091,7 @@ GameObject:
   - component: {fileID: 1689188236}
   - component: {fileID: 1689188235}
   - component: {fileID: 1689188234}
+  - component: {fileID: 1689188238}
   m_Layer: 0
   m_Name: Obstaculo 5
   m_TagString: Untagged
@@ -1918,7 +2131,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7cdcbaeaa145e3a4ebf99713ca7fd276, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1962,6 +2175,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1689188238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1689188233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe773c721b0dbfe49b6c15656d1d9a5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialParedPorDefecto: {fileID: 2100000, guid: 8005b22a157d31a49b3fae929f6d1c0f, type: 2}
+  materialParedColision: {fileID: 2100000, guid: 30f417d6c4f0af84c88accaf3e1e3aec, type: 2}
 --- !u!1 &1799335231
 GameObject:
   m_ObjectHideFlags: 0
@@ -1974,6 +2201,7 @@ GameObject:
   - component: {fileID: 1799335234}
   - component: {fileID: 1799335233}
   - component: {fileID: 1799335232}
+  - component: {fileID: 1799335236}
   m_Layer: 0
   m_Name: Obstaculo 1
   m_TagString: Untagged
@@ -2013,7 +2241,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7cdcbaeaa145e3a4ebf99713ca7fd276, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2057,6 +2285,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 25, z: 0}
+--- !u!114 &1799335236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799335231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe773c721b0dbfe49b6c15656d1d9a5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialParedPorDefecto: {fileID: 2100000, guid: 8005b22a157d31a49b3fae929f6d1c0f, type: 2}
+  materialParedColision: {fileID: 2100000, guid: 30f417d6c4f0af84c88accaf3e1e3aec, type: 2}
 --- !u!1 &1829294149
 GameObject:
   m_ObjectHideFlags: 0
@@ -2069,6 +2311,7 @@ GameObject:
   - component: {fileID: 1829294152}
   - component: {fileID: 1829294151}
   - component: {fileID: 1829294150}
+  - component: {fileID: 1829294154}
   m_Layer: 0
   m_Name: Obstaculo 3
   m_TagString: Untagged
@@ -2108,7 +2351,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7cdcbaeaa145e3a4ebf99713ca7fd276, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2152,6 +2395,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1829294154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829294149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe773c721b0dbfe49b6c15656d1d9a5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialParedPorDefecto: {fileID: 2100000, guid: 8005b22a157d31a49b3fae929f6d1c0f, type: 2}
+  materialParedColision: {fileID: 2100000, guid: 30f417d6c4f0af84c88accaf3e1e3aec, type: 2}
 --- !u!1 &1930473019
 GameObject:
   m_ObjectHideFlags: 0
@@ -2164,6 +2421,7 @@ GameObject:
   - component: {fileID: 1930473022}
   - component: {fileID: 1930473021}
   - component: {fileID: 1930473020}
+  - component: {fileID: 1930473024}
   m_Layer: 0
   m_Name: Obstaculo 3
   m_TagString: Untagged
@@ -2203,7 +2461,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7cdcbaeaa145e3a4ebf99713ca7fd276, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2247,6 +2505,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1930473024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930473019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe773c721b0dbfe49b6c15656d1d9a5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialParedPorDefecto: {fileID: 2100000, guid: 8005b22a157d31a49b3fae929f6d1c0f, type: 2}
+  materialParedColision: {fileID: 2100000, guid: 30f417d6c4f0af84c88accaf3e1e3aec, type: 2}
 --- !u!1 &1951572989
 GameObject:
   m_ObjectHideFlags: 0
@@ -2259,6 +2531,7 @@ GameObject:
   - component: {fileID: 1951572992}
   - component: {fileID: 1951572991}
   - component: {fileID: 1951572990}
+  - component: {fileID: 1951572994}
   m_Layer: 0
   m_Name: Obstaculo 2
   m_TagString: Untagged
@@ -2298,7 +2571,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7cdcbaeaa145e3a4ebf99713ca7fd276, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2342,6 +2615,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 70, z: 0}
+--- !u!114 &1951572994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951572989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe773c721b0dbfe49b6c15656d1d9a5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialParedPorDefecto: {fileID: 2100000, guid: 8005b22a157d31a49b3fae929f6d1c0f, type: 2}
+  materialParedColision: {fileID: 2100000, guid: 30f417d6c4f0af84c88accaf3e1e3aec, type: 2}
 --- !u!1 &2019323011
 GameObject:
   m_ObjectHideFlags: 0
@@ -2354,6 +2641,7 @@ GameObject:
   - component: {fileID: 2019323014}
   - component: {fileID: 2019323013}
   - component: {fileID: 2019323012}
+  - component: {fileID: 2019323016}
   m_Layer: 0
   m_Name: Obstaculo Rotatorio
   m_TagString: Untagged
@@ -2393,7 +2681,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7cdcbaeaa145e3a4ebf99713ca7fd276, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2437,6 +2725,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &2019323016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019323011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe773c721b0dbfe49b6c15656d1d9a5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialParedPorDefecto: {fileID: 2100000, guid: 8005b22a157d31a49b3fae929f6d1c0f, type: 2}
+  materialParedColision: {fileID: 2100000, guid: 30f417d6c4f0af84c88accaf3e1e3aec, type: 2}
 --- !u!1 &2103742469
 GameObject:
   m_ObjectHideFlags: 0
@@ -2449,6 +2751,7 @@ GameObject:
   - component: {fileID: 2103742472}
   - component: {fileID: 2103742471}
   - component: {fileID: 2103742470}
+  - component: {fileID: 2103742474}
   m_Layer: 0
   m_Name: Obstaculo 3
   m_TagString: Untagged
@@ -2488,7 +2791,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7cdcbaeaa145e3a4ebf99713ca7fd276, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2532,3 +2835,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2103742474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103742469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe773c721b0dbfe49b6c15656d1d9a5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialParedPorDefecto: {fileID: 2100000, guid: 8005b22a157d31a49b3fae929f6d1c0f, type: 2}
+  materialParedColision: {fileID: 2100000, guid: 30f417d6c4f0af84c88accaf3e1e3aec, type: 2}
