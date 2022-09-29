@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using TMPro;
 
 
 
@@ -19,12 +18,15 @@ public class DetectorMeta : MonoBehaviour
 float tiempodePartida = 0.0f;
 bool estaJugando = true;
 
-private void Update()
+    public object MonedasTotales { get; private set; }
+
+    private void Update()
 {
     if (estaJugando == true)
     {
 
         tiempodePartida = tiempodePartida + Time.deltaTime;
+        
     }
 
 
@@ -41,8 +43,8 @@ private void Update()
         other.GetComponent<MovimientoJugador>().enabled = false;
         estaJugando = false;
         textTiempoTotal.text = tiempodePartida.ToString();
-        textNumeroMonedas.text = tiempodePartida.ToString();
-    }
+        textNumeroMonedas.text = MonedasTotales.ToString();
+        }
 
 
    }

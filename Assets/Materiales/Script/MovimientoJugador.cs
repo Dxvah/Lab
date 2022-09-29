@@ -18,15 +18,6 @@ public class MovimientoJugador : MonoBehaviour
 
 
 
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -40,8 +31,8 @@ public class MovimientoJugador : MonoBehaviour
 
         if (other.tag == "Meta")
         {
-            textNumeroMonedas.text = MonedasTotales.ToString();
-
+            string v1 = MonedasTotales.ToString();
+            textNumeroMonedas.text = v1;
 
         }
 
