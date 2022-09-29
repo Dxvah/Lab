@@ -29,18 +29,6 @@ public class Moneda : MonoBehaviour
 
         }
 
-
-
-        static void OnTriggerEnter(Collider other)
-        {
-            if (other.tag == "Coin")
-            {
-
-                other.gameObject.SetActive(false);
-
-            }
-        }
-
     }
     
    

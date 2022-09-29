@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using TMPro;
 
 
 
@@ -12,7 +13,8 @@ public class DetectorMeta : MonoBehaviour
 
 
     [SerializeField]
-    TextMeshProUGUI textLabTime;
+    TextMeshProUGUI textTiempoTotal;
+    TextMeshProUGUI textNumeroMonedas;
 
 float tiempodePartida = 0.0f;
 bool estaJugando = true;
@@ -38,7 +40,8 @@ private void Update()
         pantallaFinal.SetActive(true);
         other.GetComponent<MovimientoJugador>().enabled = false;
         estaJugando = false;
-        textLabTime.text = tiempodePartida.ToString();
+        textTiempoTotal.text = tiempodePartida.ToString();
+        textNumeroMonedas.text = tiempodePartida.ToString();
     }
 
 
